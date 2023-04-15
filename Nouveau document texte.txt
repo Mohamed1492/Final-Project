@@ -1,6 +1,0 @@
-form
-like 
-dislike
-lien et image jeu
-
-lien pour les catégories
