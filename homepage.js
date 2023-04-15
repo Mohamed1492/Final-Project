@@ -29,7 +29,7 @@ function likeClicked(e) {
   const btncomplem = divelt.querySelector(".dislike");
   btncomplem.style.backgroundColor = colordislike[index];
   console.log(btncomplem);
-}
+};
 
 
 function dislikeClicked(e) {
