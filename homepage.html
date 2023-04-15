@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Besty-Games</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3a150bff2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <div class="logo">
+        <i class="fas fa-gamepad"></i>
+        <p>Besty Games</p>
+      </div>
+      <form>
+        <input
+          type="text"
+          name="text"
+          class="search"
+          placeholder="  search here!"
+        />
+        <button type="submit" class="submit">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <button type="button" id="btn" onclick="document.getElementById('id01').style.display='block'" >
+        <i class="fa-solid fa-right-to-bracket"></i> Login
+      </button>
+    </header>
+    <main>
+
+      <!-- login form -->
+
+      <div id="id01" class="modal">
+  
+        <form class="modal-content animate">
+          <div class="imgcontainer">
+            
+            <img src="./images-homepage/img_avatar2.png" alt="Avatar" class="avatar">
+            <br><span >Add <a href="#">profile-picture!</a></span>
+           
+          </div>
+      
+          <div class="container0">
+            <br>
+            <label for="uname"><b>Username</b><span class="required"> *</span></label>
+            <input class="input" type="text" placeholder="Enter Username" name="uname" required><br><br>
+      
+            <label for="psw"><b>Password</b><span class="required"> *</span></label>
+            <input class="input" type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+            <button class="login" type="submit">Login</button>
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container0">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          </div>
+        </form>
+      </div>
+
+
+      <!-- icones des jeux -->
+      <div class="container">
+        <div class="cadre">
+          <div class="game-icone ">
+            <a href="./rock-paper scissors/index.html">
+              <img
+                src="./images-homepage/rock-paper-scissors.jpg"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>ROCK-PAPER-SCISSORS</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Memory-Game">
+            <a href="./Level choice Memory game/images-choix/memory games.jpg">
+              <img
+                src="./images-homepage/background1.png"
+                alt="Memory-Game"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Memory-Game</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Frog-game">
+            <a href="./frog/index.html">
+              <img
+                src="./images-homepage/frog.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Frog-game</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone">
+            <a href="https://fr.y8.com/games/traffic_tour">
+              <img
+                src="./images-homepage/voiture.png"
+                alt="game-race"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>race-game</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Hot_dog_bush">
+            <a href="https://fr.y8.com/games/hot_dog_bush">
+              <img
+                src="./images-homepage/hot dog bush.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Hot_dog_bush</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone">
+            <a href="https://fr.y8.com/games/dots_">
+              <img
+                src="./images-homepage/dots.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Dots</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone">
+            <a href="https://fr.y8.com/games/spider_solitaire_2_suits_">
+              <img
+                src="./images-homepage/carte.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Solitaire</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="bubble">
+            <a href="https://fr.y8.com/games/bubble_queen_cat">
+              <img
+                src="./images-homepage/bubble.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>bubble queen cat</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Ludo">
+            <a href="https://fr.y8.com/games/ludo_hero">
+              <img
+                src="./images-homepage/Ludo.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Ludo</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Jewels">
+            <a href="https://fr.y8.com/games/jewels_of_arabia">
+              <img
+                src="./images-homepage/jewels.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Jewels</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Vex 3">
+            <a href="https://fr.y8.com/games/vex_3">
+              <img
+                src="./images-homepage/vex 3.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Vex 3</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone">
+            <a href="https://fr.y8.com/games/mergest_kingdom">
+              <img
+                src="./images-homepage/mergest_kingdom.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>mergest_kingdom</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone">
+            <a href="https://fr.y8.com/games/lipuzz">
+              <img
+                src="./images-homepage/Lipuzz.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Lipuzz</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+
+          <div class="game-icone" id="Woblox">
+            <a href="https://fr.y8.com/games/woblox">
+              <img
+                src="./images-homepage/woblox.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Woblox</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+          
+          <div class="game-icone" id="points-connector">
+            <a href="https://fr.y8.com/games/connect_dots">
+              <img
+                src="./images-homepage/points.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>points-connector</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+          <div class="game-icone" id="Search-worlds">
+            <a href="https://fr.y8.com/games/word_search_2023">
+              <img
+                src="./images-homepage/search-worlds.png"
+                alt="game-rock"
+                class="image-icone"
+              />
+              <div class="figure-title">
+                <h4>Search-worlds</h4>
+              </div>
+            </a>
+            <button class="like">
+              <i class="fa-regular fa-thumbs-up"></i>
+            </button>
+            <button class="dislike">
+              <i class="fa-regular fa-thumbs-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-2">
+        <h1>What People say About us</h1>
+        <div class="section-2-user">
+          <div class="feedback"></div>
+          <div class="feedback-desc">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              delectus error, tempora laborum, voluptas magnam animi quo
+              repudiandae asperiores totam dolore commodi perspiciatis sapiente
+              accusamus alias non vitae incidunt nisi!
+            </p>
+            <br />
+            <div class="rate">
+              <i class="fa-regular fa-face-smile-beam"></i>
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label><br />
+              <h3>OSCAR</h3>
+            </div>
+          </div>
+          <!-- =========================== -->
+          <div class="feedback f-img-2"></div>
+          <div class="feedback-desc">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              delectus error, tempora laborum, voluptas magnam animi quo
+              repudiandae asperiores totam dolore commodi perspiciatis sapiente
+              accusamus alias non vitae incidunt nisi!
+            </p>
+            <br />
+
+            <div class="rate">
+              <i class="fa-regular fa-face-smile-beam"></i>
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text">5 stars</label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text">4 stars</label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text">3 stars</label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text">2 stars</label>
+              <input type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text">1 star</label><br />
+              <h3>MARIO</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-body">
+        <div class="logo footer-logo">
+          <i class="fas fa-gamepad"></i>
+          <p>Besty Games</p>
+        </div>
+        <ul>
+          <h3>Strategy-Games</h3>
+          <li><a href="#Memory-Game">Memory-Game</a></li>
+          <li><a href="#Frog-game">Frog-game</a></li>
+          <li><a href="#bubble">bubbles</a></li>
+          <li><a href="#points-connector">points-connector</a></li>
+          <li><a href="#Vex 3">Vex 3</a></li>
+        </ul>
+
+        <ul>
+          <h3>Reflexion Games</h3>
+          <li><a href="#Hot_dog_bush">Hot_dog_bush</a></li>
+          <li><a href="#Ludo">Ludo</a></li>
+          <li><a href="#Search-worlds">Search-worlds</a></li>
+          <li><a href="#Woblox">Woblox</a></li>
+          <li><a href="#Jewels">Jewels</a></li>
+        </ul>
+        <ul>
+          <h3 id="visit">Visit us</h3>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          </li>
+          <li>
+            <a id="twit" href="#"><i class="fab fa-twitter"></i>Twitter</a>
+          </li>
+          <li>
+            <a id="tik" href="#"><i class="fab fa-tiktok"></i>Tiktok</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <p>
+        Copyright &copy; All Right Reserved | Designed
+        <span>By Med SELLAMI</span> 2023
+      </p>
+    </div>
+    <script src="./homepage.js"></script>
+  </body>
+</html>
